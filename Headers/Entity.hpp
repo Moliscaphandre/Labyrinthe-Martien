@@ -14,7 +14,7 @@
 #define ANIMATION (125)
 #define NUMBER (3)
 #define MOVE (4)
-#define LEVELS (4)
+#define LEVELS (7)
 
 #define N(x) (x*SIZE)
 

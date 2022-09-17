@@ -8,8 +8,7 @@ public:
     Game();
     ~Game();
     bool canMove(Type type, sf::Vector2f position);
-    void moveHero();
-    void moveSpiders();
+    void move();
     void checkItems();
     void changeLevel(unsigned int index);
     void run();
@@ -21,7 +20,7 @@ private:
     sf::Sound _coin;
     sf::Sprite _background;
     sf::Clock _cAnim, _cMove;
-    sf::Text _infos;
+    sf::Text _infos, _text;
 };
 
 #endif
